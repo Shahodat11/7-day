@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-link {
+    width: 1440px;
+    height: 643px;
+    background-color: #1391CEB2;
+}
+
+.nav {
+    font-family: Roboto;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    text-align: center;
+    color: #F1D3B9;
+}
+
+.img-1 {
+    margin-top: 41px;
+    margin-left: 60px;
+}
+
+.nav-a-1 {
+    text-decoration: none;
+    color: #25468A;
+    text-align: right;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 58px;
+    margin-bottom: 116px;
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;    
+}
+
+.nav-a-2 {
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+    margin-left:400px;
+    margin-right: 16px;
+    margin-top: 58px;
+    margin-bottom: 116px;
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;    
+}
+
+.nav-a-3 {
+    text-decoration: none;
+    color: #25468A;
+    text-align: right;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 58px;
+    margin-bottom: 116px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav-button {
+        font-family: Roboto;
+        border-radius: 24px;
+        font-size: 17px;
+        font-weight: 116px;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-size: 17px;
+        background: #fff;
+        color: #FFFFFF;
+        padding: 9 18px;
+        width: 128px;
+        height: 48px;
+        border: 2px solid white;
+        color: #14274C; 
+        margin-bottom: 30px;
+        margin-right: 20px;
+        gap: 10px
+}
+
+.nav-link-1 {
+    display: flex;
+}
+
+.img-2 {
+    margin-right: 160px;
+}
+
+.nav-h1 {
+    font-family: Roboto;
+        font-size: 92px;
+        font-weight: 700;
+        line-height: 108px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 560px;
+        height: 108px;
+        margin-top: 48px;
+        margin-left: 160px;
+        color: #25468A;
+}
+
+.nav-h3 {
+    font-family: Roboto;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 560px;
+        height: 24px;
+        margin-top: 8px;
+        margin-left: 160px;
+}
+
+.nav-p {
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 560px;
+        height: 55px;
+        margin-top: 42px;
+        margin-left: 159px;
+        color: #3B4A6B;
+}
+
+.button-logo {
+    margin-top: 24px;
+}
+
+.nav-link-2 {
+    display: flex;
+    text-align: center;
+    background-color: #E9F5FF;
+}
+
+.nav-link-3 {
+    background-color: #E9F5FF;
+    margin-bottom: 63px;
+}
+
+.nav-h3-1 {
+    width: 352px;    
+    height: 189px;
+    margin-top: 176px;
+    margin-right: 16px;
+    margin-left: 150px;
+    right: 8px;
+    border-radius: 8px;
+    background-color: #1391CE;
+    font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.nav-h3-2 {
+    width: 352px;
+    height: 189px;
+    margin-top: 176px;
+    margin-right: 16px;
+    margin-left: 16px;
+    right: 8px;
+    border-radius: 8px;
+    background-color:#1391CE;
+    font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.nav-h3-3 {
+    width: 352px;
+    height: 189px;
+    margin-top: 176px;
+    margin-left: 16px;
+    margin-right: 150px;
+    right: 8px;
+    border-radius: 8px;
+    background-color: #1391CE;
+    font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.nav-link-4 {
+    background-color: #E9F5FF;
+}
+
+.nav-h2-1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1391CE;
+    width: 387px;
+    height: 88px;
+    margin-left: 526px;
+}
+
+.img-3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav-link-5 {
+    display: flex;
+}
+
+.img-4 {
+    margin-top: 96px;
+    margin-left: 140px;
+}
+
+.nav-h4 {
+    width: 209px;
+    height: 21px;
+    margin-top: 96px;
+    margin-left: 112px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #25468A;
+    text-align: left;
+}
+
+.nav-h2-2 {
+    width: 387px;
+    height: 88px;
+    margin-top: 16px;
+    margin-left: 112px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    color: #1391CE;
+    text-align: left;
+}
+
+.nav-p-1 {
+    width: 448px;
+    height: 144px;
+    margin-top: 32px;
+    margin-left: 112px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: Gray 2;
+    text-align: left;
+}
+
+.nav-link-6 {
+    display: flex;
+    background-color: #E9F5FF;
+}
+
+.nav-h5 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left; 
+    width: 207px; 
+    height: 21px;
+    margin-top: 100px;
+    margin-left: 160px;
+    color: #25468A;
+}
+
+.nav-h3-4 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 448px;
+    height: 43px;
+    margin-top: 16px;
+    margin-left: 160px;
+    color: #1391CE;
+}
+
+.nav-p-2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 448px;
+    height: 72px;
+    margin-top: 32px;
+    margin-left: 159px;
+    color: Gray 2;
+}
+
+.nav-h3-5 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 448px;
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 159px;
+    color: #1391CE;
+}
+
+.img-5 {
+    margin-top: 18px;
+    margin-left: 159px;
+}
+
+.img-6 {
+    width: 560px;
+    height: 408px;
+    margin-top: 128px;
+    margin-left: 96px;
+    border-radius: 8px;
+}
+
+.nav-link-8 {
+    display: flex;
+    background-color: #E9F5FF;
+}
+
+.img-7 {
+    width: 560px;
+    height: 427px;
+    margin-top: 128px;
+    margin-left: 160px;
+    border-radius: 8px;
+}
+
+.nav-h3-6 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 150px;
+    height: 21px;
+    margin-top: 128px;
+    margin-left: 112px;
+    color: #25468A;
+}
+
+.nav-h2-3 {
+font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 448px;
+    height: 43px;
+    margin-top: 16px;
+    margin-left: 112px;
+    color: #1391CE;
+}
+
+.img-8 {
+    margin-top: 32px;
+    margin-left: 112px;
+}
+
+.nav-link-9 {
+    width: 1440px;
+    height: 144px;
+    background-color: #1391CE;
+}
+
+.img-9 {
+    margin-top: 32px;
+}
+
+.nav-h1-1 {
+    font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        width: 436px;
+        height: 21px;
+        margin-top: 22px;
+        margin-left: 160px;
+}
